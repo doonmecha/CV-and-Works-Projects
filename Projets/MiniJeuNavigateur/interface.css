@@ -1,0 +1,51 @@
+body{
+    
+    background-color: skyblue;
+    border-radius: 15px;
+    
+}
+
+.ui{
+    font-family: fantasy;
+    background-color: darkred;
+    color:yellow;
+    width:30%;
+    background-image: url(plank.jpg);
+}
+
+.ressources{
+    
+    background-color: darkorange;
+    width:20%;
+    height: 50%;
+    
+}
+
+ .ui .piece{
+    
+   
+     
+}
+
+.button1{
+    
+    background-color: black;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bolder;
+    color:aliceblue;
+    border-color: gold;
+}
+
+
+.ville{
+    
+    background-color: green;
+    width:50%;
+    height:70%;
+    position: relative;
+    bottom:650px;
+    left:500px;
+    
+    
+}
