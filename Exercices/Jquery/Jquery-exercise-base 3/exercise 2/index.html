@@ -1,0 +1,40 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8" />
+      <title>Exercise 1</title>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      <style type="text/css">
+        header, section, footer, aside, nav, article, figure, audio, video, canvas  { display:block; }
+      </style>
+    </head>
+    <body>
+        <button type="button" class="buttonNb">+</button>
+        <button type="button" class="buttonNb2">-</button>
+         <textarea rows="4" cols="50" class="numb">1</textarea> 
+        
+    </body>
+        
+        <script>
+            var ii=0;
+            
+            $(".buttonNb").click(function(){
+                ii++;
+                $(".numb").html(ii);
+                
+            });
+            
+              $(".buttonNb2").click(function(){
+                ii--;
+                $(".numb").html(ii);
+                
+            });
+        
+        
+        
+        
+        </script>
+    </html>
