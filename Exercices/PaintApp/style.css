@@ -1,0 +1,63 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  color: #fff;
+  border: none;
+}
+
+
+
+
+.white {
+  background: #fff;
+}
+
+.red{
+    
+    background: red;
+}
+
+.green{
+    background: green;
+    
+}
+
+.blue{
+    
+    background: blue;
+}
+
+.yellow{
+    
+    background: yellow;
+}
+
+div {
+    width: 100%;
+    height: 600px;
+}
+
+div div {
+    width: 32px;
+    height: 32px;
+    outline: 1px solid #fff;
+    float: left;
+    background: black;
+}
+
+.pallette-white {
+  background: white;
+  height: 32px%;
+  width: 32px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 40px 10px
+  
+}
