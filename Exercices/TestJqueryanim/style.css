@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+     background: lightblue;
+}
+
+canvas {
+  margin: auto;
+  display: block;
+       background: #fff;
+    margin: 20px;
+    text-align: center;
+}
+
+#dessinlibre {
+    
+   background-color: navy;
+    border: solid 1px #000;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+#cercle {
+    
+   background-color: gray;
+    border: solid 1px #000;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+#rectangle {
+    
+   background-color: gray;
+    border: solid 1px #000;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+#couleurs {
+    
+   background-color:gray;
+    border: solid 1px #000;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+#importer {
+    
+   background-color: gray;
+    border: solid 1px #000;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+#gommer {
+    
+   background-color: gray;
+    border: solid 1px #000;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+

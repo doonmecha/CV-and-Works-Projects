@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Interface</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <script src="jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <button id="dessinlibre" type="button">Dessin libre</button>
+        <button id="cercle" type="button">Cercle</button>
+        <button id="rectangle" type="button">Rectangle</button>
+        <button id="gommer" type="button">Gommer</button>
+        <button id="couleurs" type="button">Couleurs</button>
+        <button id="importer" type="button">Importer</button>
+    </header>
+    <script type="text/javascript">
+        $('#dessinlibre').hover(function () {
+            $(this).css('background-color', 'red');
+        });
+        $('#dessinlibre').mouseleave(function () {
+            $(this).css('background-color', 'navy');
+        });
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
