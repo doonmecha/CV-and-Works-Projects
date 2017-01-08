@@ -1,6 +1,9 @@
 /* Created by http://freehtml5templates.com */
 
 /* reset */
+
+
+
 * {
 margin: 0;
 padding: 0;
@@ -13,7 +16,7 @@ display: block;
 
 body {
 line-height: 1;
-background-image: url(images/background.png);
+background-image:  url(test2.png);
 background-image: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -69,6 +72,7 @@ overflow: hidden;
 float: right;
 width: 640px;
 margin-right: 30px;
+
 }
 
 #sidebar {
@@ -185,6 +189,7 @@ article img {
 border: none;
 -webkit-box-shadow: 3px 3px 7px #777;
 -moz-box-shadow: 3px 3px 7px #777;
+   
 }
 
 #content p, ul, ol, hr {
@@ -224,13 +229,16 @@ margin-right: auto;
 
 aside h3 {
 font-size: 15px;
-color: blue;
+color: black;
+    
 }
+
 
 aside ul {
 list-style: none;
 margin-bottom: 20px;
 margin-top: -15px;
+
 }
 
 #footer-area {
@@ -268,15 +276,15 @@ font-size: 18px;
 
 
 
- @keyframes AutoSlide {
+ /*@keyframes AutoSlide {
     0%, 15%, 100% {
-        left: 0px; /*1ère image*/
+        left: 0px; 
     }
     35%, 50% {
-        left: -650px; /*2ème image*/
+        left: -650px; 
     }
     70%, 85% {
-        left: -1300px; /*3ème image*/
+        left: -1300px; 
     }
 }
 
@@ -302,8 +310,24 @@ font-size: 18px;
     padding: 0;
     
     /*CSS3 keyframes animation*/
-    animation-name: AutoSlide;
+    /*animation-name: AutoSlide;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;*/
 }
+
+.new1{
+    color:black;
+    
+    
+}
+
+.news1 a {
+    text-decoration: none;
+    font-size: 16px;
+   
+    color:black;
+    
+}
+
+
