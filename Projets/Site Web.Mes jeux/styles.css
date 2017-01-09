@@ -54,8 +54,8 @@ nav {
 audio {
     width: 190px;
     display: block;
-    background-color: blue;
-    color: beige;
+    background-color: #0094FF;
+    color: #0094FF;
     border-radius: 3px 3px 3px 3px;
 }
 
