@@ -162,6 +162,7 @@ nav .menu a {
 
 nav .menu a:hover {
     text-decoration: underline;
+    color: aliceblue;
 }
 
 
@@ -298,6 +299,15 @@ footer p {
 
 .p {
     font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0094FF;
+}
+
+footer a:hover {
+    color: white;
 }
 
 
